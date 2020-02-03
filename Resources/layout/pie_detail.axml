@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:background="@drawable/patternwide">
+    <ImageView
+        android:id="@+id/pieImageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        style="@style/BethanyGreenText"
+        android:text="Pie Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pieNameTextView"
+        android:paddingTop="20dp"
+        android:textSize="20dp" />
+    <TextView
+        android:text="Short Description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shortDescriptionTextView"
+        android:textColor="@android:color/black"
+        android:paddingTop="20dp"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionTextView"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut nisi egestas, auctor arcu quis, tristique urna. Nunc et rutrum nunc, commodo feugiat nisi. Fusce pharetra sollicitudin sapien, nec facilisis risus consectetur vel. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent dignissim tincidunt felis, eget tempus ligula egestas vel. Donec massa est, luctus eget facilisis eu, faucibus eu elit. Suspendisse potenti. Cras aliquam lectus ut elit varius consectetur. Proin lacinia ante at euismod elementum. Fusce dictum mauris eu sagittis facilisis. Vivamus a dignissim enim, id luctus leo."
+        android:editable="False"
+        android:textColor="@android:color/black"
+        android:paddingTop="20dp"
+        android:textSize="12dp" />
+    <TextView
+        android:text="Price: 10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceTextView"
+        android:textColor="@android:color/black"
+        android:paddingTop="20dp"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="Amount: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:paddingTop="20dp"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+        <EditText
+            android:inputType="number"
+            android:text="1"
+            android:hint="1"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:id="@+id/amountEditText"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </LinearLayout>
+    <Button
+        android:text="Add to cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addToCartButton"
+        android:backgroundTint="#23cfa7"
+        android:textColor="#ffffffff"
+        android:layout_gravity="center_horizontal"
+        android:width="200dp"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

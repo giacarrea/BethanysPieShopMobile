@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/patternwide"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/logoImageView"
+        android:src="@drawable/bethanylogo"
+        android:layout_marginTop="10dp" />
+    <Button
+        android:text="Order pies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderButton"
+        android:backgroundTint="#23cfa7"
+        android:textColor="#ffffffff"
+        android:layout_gravity="center_horizontal"
+        android:width="200dp" />
+    <Button
+        android:text="View shopping cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cartButton"
+        android:backgroundTint="#23cfa7"
+        android:textColor="#ffffffff"
+        android:layout_gravity="center_horizontal"
+        android:width="200dp" />
+    <Button
+        android:text="About us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/aboutButton"
+        android:backgroundTint="#23cfa7"
+        android:textColor="#ffffffff"
+        android:layout_gravity="center_horizontal"
+        android:width="200dp" />
+    <Button
+        android:text="Menu with tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabsOrderButton"
+        android:backgroundTint="#23cfa7"
+        android:textColor="#ffffffff"
+        android:layout_gravity="center_horizontal"
+        android:width="200dp" />
+    <Button
+        android:text="Show on Google Maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/googleMapsButton"
+        android:backgroundTint="#23cfa7"
+        android:textColor="#ffffffff"
+        android:layout_gravity="center_horizontal"
+        android:width="200dp" />
+</LinearLayout>
